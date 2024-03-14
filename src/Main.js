@@ -2,6 +2,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./components/Global.styled";
+import NavBar from "./components/layout/NavBar";
+import { TopBanner } from "./components/layout/TopBanner";
 
 function Main() {
   const theme = {
@@ -20,6 +22,8 @@ function Main() {
     <div>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
+        <TopBanner />
+        <NavBar />
         <Header />
         <h1>Hello World this is Anish Joglekar!</h1>
         <Footer />
