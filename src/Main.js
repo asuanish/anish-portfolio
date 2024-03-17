@@ -1,5 +1,5 @@
 import Header from "./Header";
-import Footer from "./Footer";
+import Footer from "./components/layout/Footer";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./components/Global.styled";
 import NavBar from "./components/layout/NavBar";
