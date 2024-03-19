@@ -30,9 +30,7 @@ export const TopBanner = () => {
   return (
     <>
       <StyledTopBanner>
-        <BannerSection>
-          {" "}
-          showOnMobile
+        <BannerSection showOnMobile>
           <a href="mailto:ajjoglek@asu.edu"> ajjoglek@asu.edu</a>
         </BannerSection>
         <div>⚡ Available for Hire</div>
